@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #e9e9e9;
+}
+
+/* .maindiv {
+  background-image: url(/EllipticalCostlyChrysomelid-size_restricted.gif);
+  border-radius: 6px;
+  margin: 3em auto;
+  width: 60%;
+  border: 3px solid #73ad21;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(11, 17, 13, 0.5);
+} */
+
+.maindiv {
+  width: 60%;
+  margin: 3em auto;
+  text-align: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  list-style: none;
+  overflow: hidden;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: relative;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+}
+
+.letters {
+  color: white;
+  text-shadow: 0px 0px 10px #50fd47;
+}
+
+#input1 {
+  text-align: center;
+
+  border: 3px solid #000;
+  border-radius: 5px;
+  height: 30px;
+  width: 40%;
+  line-height: normal;
+  color: #282828;
+  box-sizing: border-box;
+  user-select: auto;
+  font-size: 10px;
+  padding: 0 6px;
+  padding-left: 12px;
+}
+
+input:focus {
+  border: 3px solid #5551ff;
+}
+
+#label1,
+#label2 {
+  color: white;
+  font-size: 10px;
+}
+
+/* CSS */
+.button2 {
+  padding: 0.6em 2em;
+  margin-top: 7px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button2:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button2 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button2:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/* CSS */
+.button1 {
+  width: 25%;
+  height: 2.5em;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 10px;
+  padding: 0.2em 0.3em 0.2em 0.3em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20, 167, 62, 1) 0%, rgba(102, 247, 113, 1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button1:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button1:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}

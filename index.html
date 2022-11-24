@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Minting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+  </head>
+  <body>
+    <section>
+      <div class="maindiv">
+        <h2 class="letters">Mint Portal</h2>
+        <h5 class="letters">Please connect your wallet</h5>
+        <button class="button1" onclick="connectmetamask()">Connect Wallet</button> <br /><br />
+        <label for="walletaddr" id="label1">Wallet Address :</label> <label for="addr" id="label2"></label><br /><br /><input type="number" id="input1" name="amount" min="1" /> <br />
+        <button class="button2" role="button" onclick="mint()">Mint</button> <br /><br />
+        <h5 class="letters">Price 0.0001 Eth for each NFT</h5>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
